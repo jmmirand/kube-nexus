@@ -19,13 +19,16 @@ standard_init_linux.go: 211: exec user process caused "exec format error"
 
 To solve it, we create this docker image that only installs what is strictly necessary and we follow the sontype installation instructions
 
+
 ## Building
+
 
 To build the image and upload it to the Github repository [jmmirand / nexus3-kube-pi] (https://hub.docker.com/repository/docker/jmmirand/nexus3-kube-pi)
 
-`` ''
+
+`` 
 docker build --tag jmmirand / nexus3-kube-pi: 3.25.0.
 
 docker push jmmirand / nexus3-kube-pi: 3.25.0
 
-`` ''
+``
